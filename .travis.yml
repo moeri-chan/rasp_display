@@ -44,7 +44,7 @@ notifications:
     on_start: never     # options: [always|never|change] default: always
 sudo: false
 deploy:
-	provider: heroku
-	api_key: "eb6b1d5f-2db7-4b46-92ba-82bbb447c2a2"
-	app: rasp-display
-	on: master
+    provider: heroku
+    api_key: "eb6b1d5f-2db7-4b46-92ba-82bbb447c2a2"
+    app: rasp-display
+    on: master
