@@ -77,7 +77,7 @@ describe('User CRUD tests', function () {
       });
   });
 
-  it('should be able to login successfully and logout successfully', function (done) {
+  xit('should be able to login successfully and logout successfully', function (done) {
     agent.post('/api/auth/signin')
       .send(credentials)
       .expect(200)
