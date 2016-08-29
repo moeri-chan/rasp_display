@@ -11,5 +11,4 @@ if (process.env.TRAVIS) {
     browserName: 'firefox'
   };
 }
-
 exports.config = config;

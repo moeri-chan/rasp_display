@@ -1,0 +1,13 @@
+'use strict';
+
+/**
+ * Module dependencies.
+ */
+var _ = require('lodash');
+
+/**
+ * Extend device's controller
+ */
+module.exports = _.extend(
+  require('./devices/devices.profile.server.controller')
+);
